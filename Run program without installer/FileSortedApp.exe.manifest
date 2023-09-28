@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileSortedApp.exe" size="155088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileSortedApp.exe" size="155600">
       <assemblyIdentity name="FileSortedApp" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uYtSczOPF9dA3TLMu3524Ek4HLyAeUtWLmfLy+GERXw=</dsig:DigestValue>
+        <dsig:DigestValue>HBtGcXdUc8QT8EVmyVEad3RXxaH/S7l9rhwVhFwKOk8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
