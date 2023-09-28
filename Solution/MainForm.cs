@@ -51,11 +51,18 @@ namespace FileSortedApp
 
                     var FoldersPath = pathFolder + @"\" + extension;
 
+                    var filePath = pathFolder + $@"\{extension}\" + filename;
+
                     if (!Directory.Exists(FoldersPath))
                     {
                         Directory.CreateDirectory(FoldersPath);
                     }
-                    File.Move(pathFile, pathFolder + $@"\{extension}\" + filename);
+
+                    if (!File.Exists(filePath)) {
+                        File.Move(pathFile, filePath);
+                    }
+                    else File.Move(pathFile, pathFolder + $@"\{extension}\" + "(copy)" + filename);
+
                 }
                 MessageBox.Show("Файлы были отсортированы по папкам!");
             }
